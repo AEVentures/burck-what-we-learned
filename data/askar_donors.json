@@ -1,0 +1,79 @@
+[
+  {
+    "name": "ASKAR, CASEY",
+    "amount": 1750000.0,
+    "employer": "Self",
+    "occupation": "Candidate",
+    "city": "Naples",
+    "state": "FL",
+    "date": "2026-06-30",
+    "type": "PERSONAL FUNDS",
+    "entity": "CANDIDATE"
+  },
+  {
+    "name": "ASKAR, CASEY",
+    "amount": 650000.0,
+    "employer": "Self",
+    "occupation": "Candidate",
+    "city": "Naples",
+    "state": "FL",
+    "date": "2026-06-29",
+    "type": "PERSONAL FUNDS",
+    "entity": "CANDIDATE"
+  },
+  {
+    "name": "ASKAR, CASEY",
+    "amount": 95000.0,
+    "employer": "Self",
+    "occupation": "Candidate",
+    "city": "Naples",
+    "state": "FL",
+    "date": "2026-06-09",
+    "type": "PERSONAL FUNDS",
+    "entity": "CANDIDATE"
+  },
+  {
+    "name": "ASKAR, CASEY",
+    "amount": 5000.0,
+    "employer": "Self",
+    "occupation": "Candidate",
+    "city": "Naples",
+    "state": "FL",
+    "date": "2026-06-08",
+    "type": "PERSONAL FUNDS",
+    "entity": "CANDIDATE"
+  },
+  {
+    "name": "SCHWERIN, FRANCIS T JR.",
+    "amount": 500.0,
+    "employer": "Retired",
+    "occupation": "Retired",
+    "city": "Naples",
+    "state": "FL",
+    "date": "2026-06-20",
+    "type": "CONTRIBUTION",
+    "entity": "INDIVIDUAL"
+  },
+  {
+    "name": "MANAVI, ALEX",
+    "amount": 500.0,
+    "employer": "Speakeasy",
+    "occupation": "Ceo",
+    "city": "Beverly Hills",
+    "state": "CA",
+    "date": "2026-06-20",
+    "type": "CONTRIBUTION",
+    "entity": "INDIVIDUAL"
+  },
+  {
+    "name": "GABAY, LUCAS",
+    "amount": 250.0,
+    "employer": "Student",
+    "occupation": "Student",
+    "city": "Chicago",
+    "state": "IL",
+    "date": "2026-06-20",
+    "type": "CONTRIBUTION",
+    "entity": "INDIVIDUAL"
+  }
+]

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Treasurer's Reports — Every Committee, Line by Line</title>
+<meta property="og:title" content="Treasurer's Reports — Every Committee, Line by Line">
+<meta property="og:image" content="https://aeventures.github.io/burck-opposition-report/assets/og.png">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <div class="brand">THE COMPETITION FILE <span>· FL-22</span></div>
+    <nav class="main">
+      <a href="index.html">Thesis</a>
+      <a href="opponents.html">The Competition</a>
+      <a href="money.html">The Money</a>
+      <a href="donors.html">Burck's Donors</a>
+      <a href="treasurer-reports.html" class="active">Treasurer's Reports</a>
+      <a href="efficiency.html">Efficiency Case</a>
+      <a href="videos.html">Videos</a>
+      <a href="sources.html">Sources</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero" style="padding-bottom:20px;">
+  <div class="wrap">
+    <span class="eyebrow">Drill Down</span>
+    <h1>Every campaign's treasurer report, line by line.</h1>
+    <p class="lede">Federal campaign committees are required to itemize every contribution over $200 on
+    FEC Schedule A. This is that data, pulled directly from each committee's own filings — not summaries,
+    the actual disclosed transactions, so you can see exactly who funded David and exactly who funded the
+    field he was running against.</p>
+  </div>
+</section>
+
+<section style="padding-top:20px;">
+  <div class="wrap">
+    <div class="callout">
+      <strong>A note on how "self-funding" actually shows up in these filings.</strong><br><br>
+      When a candidate loans their own campaign money, FEC rules only require the campaign to disclose
+      that the candidate personally provided the funds (Schedule A, receipt type "Loans Received from the
+      Candidate" / "Personal Funds") — not the ultimate source of that money in the candidate's personal
+      or business finances. If a candidate's income in a given period came from, say, a business deal,
+      a consulting fee, or a liquidity event, and that money is then loaned into the campaign, it is
+      disclosed as a "personal funds" loan — legally correct, but it means the true original source of
+      that capital (and any expectations attached to it) never has to be itemized the way a $500 check
+      from an individual donor does. That's a real, structural transparency gap in federal campaign
+      finance law, not a flaw specific to any one candidate here — but it's worth knowing when you compare
+      a "self-funded" war chest to a donor-funded one. One concrete, fully disclosed example of money with
+      a business origin flowing into a campaign shows up directly below, in Michael Carbonara's filing.
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="section-head">
+      <span class="kicker">David Burck for Congress 2026 · C00935452</span>
+      <h2>Full itemized ledger — 111 disclosed contributions</h2>
+      <p class="dim">Every one of these is an individual, itemized donor — no loans, no PACs, no business
+      entities. See the searchable full table on <a href="donors.html">Burck's Donors</a>.</p>
+    </div>
+    <div class="table-wrap">
+      <table class="data">
+        <thead><tr><th>Top Donors</th><th>Amount</th><th>Employer / Occupation</th><th>City</th></tr></thead>
+        <tbody id="burck-top"></tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="section-head">
+      <span class="kicker">Casey Askar / Casey for Congress · C00952663</span>
+      <h2>Full itemized ledger — every disclosed transaction (7 total)</h2>
+      <p class="dim">This is the complete Schedule A record for Askar's committee: four personal-funds
+      loans totaling $2,500,000, and three individual contributions totaling $1,250. No PAC money appears
+      on Schedule A.</p>
+    </div>
+    <div class="table-wrap">
+      <table class="data">
+        <thead><tr><th>Contributor</th><th>Amount</th><th>Type</th><th>Employer / Occupation</th><th>City</th><th>Date</th></tr></thead>
+        <tbody id="askar-table"></tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="section-head">
+      <span class="kicker">Michael Carbonara / Carbonara for Congress · C00901793</span>
+      <h2>Notable disclosed transactions (83 total on file)</h2>
+      <p class="dim">Carbonara's committee has 83 itemized Schedule A entries. Below are the largest and
+      most notable ones we retrieved before hitting the FEC public API's rate limit — including two
+      entries where liquidated cryptocurrency held by his own fintech company, Ibanera, was moved into the
+      campaign as "Other Receipts." For the complete 83-line filing, see the FEC link below.</p>
+    </div>
+    <div class="table-wrap">
+      <table class="data">
+        <thead><tr><th>Contributor / Source</th><th>Amount</th><th>Type</th><th>Date</th><th>Note</th></tr></thead>
+        <tbody id="carbonara-table"></tbody>
+      </table>
+    </div>
+    <p class="dim" style="margin-top:14px; font-size:0.85rem;">Full filing: <a href="https://www.fec.gov/data/receipts/?committee_id=C00901793&two_year_transaction_period=2026" target="_blank" rel="noopener">fec.gov/data/receipts (committee C00901793)</a></p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="section-head">
+      <span class="kicker">No FEC committee located</span>
+      <h2>Belinda Keiser, Richard Evans, Terri Hasdorff, Michael Thompson</h2>
+      <p class="dim">We could not locate an FEC committee filing Schedule A data for the FL-22 2026 cycle
+      for these four candidates at the time of research (see <a href="sources.html">Sources &amp;
+      Methodology</a> for possible reasons). Reported totals for these candidates on the
+      <a href="money.html">Money page</a> come from news reporting, not itemized FEC filings, and cannot
+      be drilled down to individual transactions here. Anyone wanting to verify their fundraising directly
+      should check <a href="https://www.fec.gov/data/candidates/house/?q=&state=FL&district=22&cycle=2026" target="_blank" rel="noopener">FEC.gov's FL-22 candidate list</a> for newly processed filings.</p>
+    </div>
+  </div>
+</section>
+
+<footer class="site">
+  <div class="wrap">
+    <p>All data pulled directly from the FEC's public Schedule A API (api.open.fec.gov). Some large
+    committees (like Carbonara's, with 83 itemized entries) could not be fully retrieved in one research
+    session due to the public API's rate limit — the entries shown are real, complete individual
+    transactions, just not the full set. See <a href="sources.html">Sources</a>.</p>
+  </div>
+</footer>
+
+<script>
+function money(n) { return "$" + Number(n).toLocaleString("en-US", { maximumFractionDigits: 0 }); }
+function toTitle(nameStr) {
+  return nameStr.split(" ").map(w => w.length ? w[0] + w.slice(1).toLowerCase() : w).join(" ").replace(/,\s*$/, "");
+}
+
+fetch("data/donors.json").then(r => r.json()).then(data => {
+  const top = data.sort((a,b) => b.amount - a.amount).slice(0, 15);
+  document.getElementById("burck-top").innerHTML = top.map(d => `
+    <tr><td>${toTitle(d.name)}</td><td>${money(d.amount)}</td><td>${d.employer || "—"} / ${d.occupation || "—"}</td><td>${d.city || ""}, ${d.state || ""}</td></tr>
+  `).join("");
+});
+
+fetch("data/askar_donors.json").then(r => r.json()).then(data => {
+  document.getElementById("askar-table").innerHTML = data.map(d => `
+    <tr>
+      <td>${toTitle(d.name)}</td>
+      <td>${money(d.amount)}</td>
+      <td>${d.type === "PERSONAL FUNDS" ? '<span class="pill self">Candidate Loan</span>' : '<span class="pill zero">Individual</span>'}</td>
+      <td>${d.employer} / ${d.occupation}</td>
+      <td>${d.city}, ${d.state}</td>
+      <td>${d.date}</td>
+    </tr>
+  `).join("");
+});
+
+const CARBONARA_NOTABLE = [
+  { name: "Michael Carbonara (candidate)", amount: 1297921.79, type: "Candidate Loan", date: "2026-06-30", note: "Personal funds loaned to campaign; aggregate loans to date $3,772,597.84" },
+  { name: "IBANERA USDC CRYPTO WALLET", amount: 730306.13, type: "Other Receipts", date: "2026-06-08", note: "Filed as \u201cPermissible Investment in USDC Liquidation\u201d \u2014 crypto held by Carbonara's fintech company, Ibanera, converted and moved into the campaign" },
+  { name: "IBANERA BTC CRYPTO WALLET", amount: 730306.13, type: "Other Receipts", date: "2026-06-08", note: "Filed as \u201cPermissible Investment in BTC Liquidation\u201d \u2014 same Ibanera-linked crypto wallet, Bitcoin liquidation" },
+  { name: "Michael Carbonara (candidate)", amount: 499767.38, type: "Candidate Loan", date: "2026-03-31", note: "Personal funds loaned to campaign; aggregate loans to date $2,304,676.05" },
+  { name: "IBANERA BTC CRYPTO WALLET", amount: 402683.90, type: "Other Receipts", date: "2026-05-06", note: "Filed as \u201cPermissible Investment in BTC Liquidation\u201d" },
+];
+document.getElementById("carbonara-table").innerHTML = CARBONARA_NOTABLE.map(d => `
+  <tr>
+    <td>${d.name}</td>
+    <td>${money(d.amount)}</td>
+    <td>${d.type === "Candidate Loan" ? '<span class="pill self">Candidate Loan</span>' : '<span class="pill self">Business-Linked</span>'}</td>
+    <td>${d.date}</td>
+    <td style="font-size:0.85rem;">${d.note}</td>
+  </tr>
+`).join("");
+</script>
+</body>
+</html>

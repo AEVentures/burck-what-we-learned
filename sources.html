@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sources &amp; Methodology</title>
+<meta property="og:title" content="Sources & Methodology — The Competition File">
+<meta property="og:image" content="https://aeventures.github.io/burck-opposition-report/assets/og.png">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <div class="brand">THE COMPETITION FILE <span>· FL-22</span></div>
+    <nav class="main">
+      <a href="index.html">Thesis</a>
+      <a href="opponents.html">The Competition</a>
+      <a href="money.html">The Money</a>
+      <a href="donors.html">Burck's Donors</a>
+      <a href="treasurer-reports.html">Treasurer's Reports</a>
+      <a href="efficiency.html">Efficiency Case</a>
+      <a href="videos.html">Videos</a>
+      <a href="sources.html" class="active">Sources</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero" style="padding-bottom:10px;">
+  <div class="wrap">
+    <span class="eyebrow">Methodology</span>
+    <h1>How this was built, and where every number came from.</h1>
+  </div>
+</section>
+
+<section style="padding-top:0;">
+  <div class="wrap">
+    <h3>Data sources</h3>
+    <ul>
+      <li><strong>Campaign finance figures</strong> come from the Federal Election Commission's public API
+        (<a href="https://api.open.fec.gov/v1/" target="_blank" rel="noopener">api.open.fec.gov</a>) and
+        FEC.gov candidate/committee pages, queried directly against committee IDs C00935452 (Burck),
+        C00952663 (Askar), C00901793 (Carbonara). Where a candidate had no locatable FEC committee for the
+        FL-22 / 2026 cycle (Keiser, Evans, Hasdorff, Thompson), figures are drawn from contemporaneous news
+        reporting and flagged as such.</li>
+      <li><strong>Donor-level detail</strong> (donors.html) is pulled from FEC Schedule A itemized receipt
+        records for committee C00935452, retrieved via the Schedule A endpoint of the FEC API.</li>
+      <li><strong>Vote totals and percentages</strong> are drawn from the Florida Division of Elections /
+        Florida Supervisor of Elections reporting as relayed by Marco News, and cross-checked against
+        Florida Politics, the Palm Beach Post, Miami Herald, and an AAHOA election-results summary.</li>
+      <li><strong>Biographical detail</strong> on each candidate comes from Ballotpedia, campaign websites,
+        Wikipedia, and primary-source candidate Q&amp;As published by the Palm Beach Post and News-Press
+        ahead of the primary.</li>
+      <li><strong>Outside spending / independent expenditure</strong> figures are drawn from Legis1's FL-22
+        race brief, which itself aggregates FEC independent-expenditure filings, supplemented by The Hill's
+        reporting on Club for Growth Action's involvement.</li>
+    </ul>
+
+    <h3>Known limitations</h3>
+    <ul>
+      <li>Several candidates (Keiser, Evans, Hasdorff, Thompson) do not have a discoverable FEC committee
+        page specific to the FL-22 2026 race at the time of research, despite news reports citing
+        fundraising totals for them. This may reflect recent filings not yet processed by the FEC, filings
+        under a different committee name, or reporting based on candidate/campaign self-disclosure rather
+        than FEC filings. Where this is the case, it is noted directly on the relevant page.</li>
+      <li>The FEC's official candidate-totals figure for Burck's itemized individual contributions
+        ($252,562.13) is slightly higher than the sum of individual transaction records retrievable via the
+        public Schedule A API at time of research ($203,382 net of refunds); this is most likely explained
+        by report-timing/amendment differences between the aggregated totals endpoint and the itemized
+        schedule endpoint. The donor ledger presents the itemized transactions actually returned by the API.</li>
+      <li>Exact raw vote counts (as opposed to percentages) for each FL-22 GOP primary candidate were not
+        independently located in a single authoritative table at time of research; percentages are
+        corroborated across at least two independent sources for each candidate.</li>
+      <li>"Cost per point of vote share" is an analytical construct created for this site to enable
+        apples-to-apples comparison across self-funded and donor-funded candidates. It is not a standard
+        FEC or campaign-finance industry metric.</li>
+    </ul>
+
+    <h3>Full citation list</h3>
+    <ol class="cite" id="cite-list"></ol>
+  </div>
+</section>
+
+<footer class="site">
+  <div class="wrap">
+    <p>This is an independent research compilation, not an official campaign publication.</p>
+  </div>
+</footer>
+
+<script>
+const CITES = [
+  "https://www.fec.gov/data/candidate/H6FL22156/",
+  "https://api.open.fec.gov/v1/candidate/H6FL22156/totals/",
+  "https://api.open.fec.gov/v1/schedules/schedule_a/?committee_id=C00935452",
+  "https://www.fec.gov/data/candidate/H6FL22248/",
+  "https://www.fec.gov/data/committee/C00952663/?cycle=2026",
+  "https://www.fec.gov/data/committee/C00953414/?cycle=2026",
+  "https://www.fec.gov/data/candidate/H6FL25035/",
+  "https://www.fec.gov/data/committee/C00901793/?cycle=2026",
+  "https://www.fec.gov/data/candidate/H4FL26111/",
+  "https://floridapolitics.com/archives/814079-casey-askar-pia-dandiya-to-compete-for-new-cd-22-seat-after-winning-their-primary-races-tuesday/",
+  "https://floridapolitics.com/archives/797331-casey-askar-jumps-into-increasingly-competitive-cd-22-contest/",
+  "https://www.palmbeachpost.com/story/news/politics/elections/congressional/2026/08/18/us-house-district-22-gop-primary-pits-seven-candidates/91247274007/",
+  "https://www.palmbeachpost.com/story/news/politics/elections/2026/08/08/palm-beach-post-voter-guide-for-us-house-district-22-primary/90663317007/",
+  "https://www.palmbeachpost.com/story/news/politics/elections/2026/08/08/congressional-district-22-candidate-michael-thompson-qa-in-south-florida/90927627007/",
+  "https://www.miamiherald.com/news/politics-government/election/article316929421.html",
+  "https://www.marconews.com/story/news/politics/elections/2026/08/18/see-who-won-redrawn-florida-congressional-district-22-primaries/91167398007/",
+  "https://www.news-press.com/story/news/politics/elections/2026/08/08/republican-congressional-district-22-candidate-belinda-keiser-qa/90932771007/",
+  "https://www.news-press.com/story/news/politics/elections/2026/08/08/congressional-district-22-republican-candidate-david-burck-questionnaire/90990557007/",
+  "https://www.aahoa.com/news-details/2026-florida-primary-elections",
+  "https://ballotpedia.org/Casey_Askar",
+  "https://ballotpedia.org/David_Burck",
+  "https://en.wikipedia.org/wiki/Michael_Carbonara",
+  "https://thehill.com/homenews/campaign/6021929-club-for-growth-action-carbonara-florida-house-primary/",
+  "https://legis1.com/news/florida-22nd-congressional-district-primary",
+  "https://floridianpress.com/2026/08/casey-askar-wins-the-congressional-republican-primary-race-in-fl-cd-22/",
+  "https://floridianpress.com/2026/07/floridas-republican-race-in-cd-22-filled-with-sexual-assault-claims-love-for-communist-china-and-illegal-websites/",
+  "https://bluewaterhealthyliving.com/news/national-news/florida/take-a-first-look-at-the-7-republicans-running-for-u-s-rep-district-22/",
+  "https://smarter.vote/races/fl-house-22-2026/",
+  "https://www.caseyaskar.com/",
+  "https://davidburck.com/",
+  "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=90645",
+];
+document.getElementById("cite-list").innerHTML = CITES.map(c => `<li><a href="${c}" target="_blank" rel="noopener">${c}</a></li>`).join("");
+</script>
+</body>
+</html>

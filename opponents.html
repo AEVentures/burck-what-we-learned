@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Competition — FL-22 Republican Primary Field</title>
+<meta property="og:title" content="The Competition — FL-22 Republican Primary Field">
+<meta property="og:image" content="https://aeventures.github.io/burck-opposition-report/assets/og.png">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <div class="brand">THE COMPETITION FILE <span>· FL-22</span></div>
+    <nav class="main">
+      <a href="index.html">Thesis</a>
+      <a href="opponents.html" class="active">The Competition</a>
+      <a href="money.html">The Money</a>
+      <a href="donors.html">Burck's Donors</a>
+      <a href="treasurer-reports.html">Treasurer's Reports</a>
+      <a href="efficiency.html">Efficiency Case</a>
+      <a href="videos.html">Videos</a>
+      <a href="sources.html">Sources</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero" style="padding-bottom:20px;">
+  <div class="wrap">
+    <span class="eyebrow">Field Report</span>
+    <h1>Everyone who stood in David's way.</h1>
+    <p class="lede">Seven Republicans qualified for the August 18, 2026 primary in FL-22. Here is every one
+    of them — where they came from, what they'd built, how much they raised, and exactly where they
+    finished. David Burck placed <strong>4th of 7</strong>, ahead of three rivals, despite being outspent
+    by all three candidates who beat him.</p>
+  </div>
+</section>
+
+<section style="padding-top:20px;">
+  <div class="wrap">
+    <div class="card-grid" id="opp-grid"></div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="section-head">
+      <span class="kicker">For context</span>
+      <h2>The Democratic side</h2>
+      <p class="dim">Two Democrats ran in the companion primary. The winner, Pia Dandiya, faces Casey Askar
+      in the November 3, 2026 general election.</p>
+    </div>
+    <div class="card-grid" id="dem-grid"></div>
+  </div>
+</section>
+
+<footer class="site">
+  <div class="wrap">
+    <p>All figures sourced from FEC filings and contemporaneous news reporting. Full citations on the
+    <a href="sources.html">Sources</a> page.</p>
+  </div>
+</footer>
+
+<script src="data/race-data.js"></script>
+<script>
+function money(n) {
+  if (n === null || n === undefined) return "N/A";
+  return "$" + Number(n).toLocaleString("en-US", { maximumFractionDigits: 0 });
+}
+
+function renderOpponent(o, idx) {
+  const isWinner = idx === 0;
+  const fin = o.financials || {};
+  const selfPill = fin.selfFunded ? '<span class="pill self">Self-funded</span>' : (fin.totalReceipts !== null && fin.totalReceipts !== undefined ? '<span class="pill zero">Individually funded</span>' : '');
+  const bioList = (o.bio || []).map(b => `<li>${b}</li>`).join("");
+  const moneyLine = fin.totalReceipts
+    ? `<div class="money-line"><span>Total raised</span><b>${money(fin.totalReceipts)}</b></div>
+       ${fin.selfFundingNote ? `<div class="money-line"><span colspan=2 style="color:var(--muted);font-size:0.85rem;">${fin.selfFundingNote}</span></div>` : ""}`
+    : `<div class="money-line"><span>FEC data</span><b>${fin.note || "Not found for FL-22 cycle"}</b></div>`;
+  const sources = (o.sources || []).map(s => `<a href="${s}" target="_blank" rel="noopener">${new URL(s).hostname}</a>`).join(" · ");
+
+  return `
+  <div class="opp-card ${isWinner ? 'winner' : ''}">
+    <span class="rank ${isWinner ? '' : 'muted'}">${o.result}</span>
+    <h3>${o.name}</h3>
+    <div class="meta">${o.age ? o.age + " · " : ""}${o.hometown}</div>
+    <div class="vote-bar-track"><div class="vote-bar-fill" style="width:${o.votePct}%"></div></div>
+    <div class="meta">${o.votePct}% of the primary vote</div>
+    <ul>${bioList}</ul>
+    ${o.outsideMoney ? `<div class="callout" style="margin:10px 0;padding:14px 16px;font-size:0.85rem;"><strong>Outside spending:</strong> ${o.outsideMoney}</div>` : ""}
+    ${selfPill}
+    ${moneyLine}
+    <div class="sources">Sources: ${sources}</div>
+  </div>`;
+}
+
+document.getElementById("opp-grid").innerHTML = OPPONENTS.map(renderOpponent).join("");
+document.getElementById("dem-grid").innerHTML = DEMOCRATS_FOR_CONTEXT.map(d => `
+  <div class="opp-card">
+    <span class="rank muted">${d.result}</span>
+    <h3>${d.name}</h3>
+    <p class="dim">${d.bio}</p>
+    <div class="sources">Source: <a href="${d.source}" target="_blank" rel="noopener">${new URL(d.source).hostname}</a></div>
+  </div>
+`).join("");
+</script>
+</body>
+</html>

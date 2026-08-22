@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+  * { box-sizing: border-box; margin:0; padding:0; }
+  body {
+    width: 1200px; height: 630px;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    background: #ffffff;
+    position: relative;
+    overflow: hidden;
+  }
+  .top-bar { height: 10px; background: linear-gradient(90deg, #0a3161 0%, #0a3161 50%, #2f9640 50%, #2f9640 100%); }
+  .content { padding: 64px 70px; }
+  .eyebrow {
+    display: inline-block;
+    color: #1f6b2e;
+    font-weight: 800;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    font-size: 20px;
+    background: #e6f7e9;
+    border: 2px solid #2f9640;
+    padding: 8px 20px;
+    border-radius: 999px;
+    margin-bottom: 34px;
+  }
+  h1 {
+    font-family: "Arial Black", "Helvetica Neue", Arial, sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 64px;
+    line-height: 1.05;
+    color: #12417a;
+    max-width: 950px;
+    letter-spacing: -0.5px;
+  }
+  h1 .accent { color: #2f9640; }
+  .lede {
+    margin-top: 28px;
+    font-size: 27px;
+    color: #5b7085;
+    max-width: 920px;
+    line-height: 1.4;
+  }
+  .stats {
+    position: absolute;
+    bottom: 56px;
+    left: 70px;
+    right: 70px;
+    display: flex;
+    gap: 40px;
+  }
+  .stat { }
+  .stat .num { font-family: "Arial Black", Arial, sans-serif; font-weight: 900; font-size: 40px; color: #0a3161; }
+  .stat .label { font-size: 16px; color: #5b7085; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; margin-top: 4px; }
+  .brand-tag {
+    position: absolute;
+    top: 40px;
+    right: 70px;
+    font-family: "Arial Black", Arial, sans-serif;
+    font-weight: 900;
+    font-size: 22px;
+    color: #0a3161;
+    text-transform: uppercase;
+  }
+  .brand-tag span { color: #2f9640; }
+</style>
+</head>
+<body>
+  <div class="top-bar"></div>
+  <div class="brand-tag">THE COMPETITION FILE <span>· FL-22</span></div>
+  <div class="content">
+    <span class="eyebrow">Independent Research Dossier</span>
+    <h1>Outspent 20-to-1.<br>Still <span class="accent">Outperformed.</span></h1>
+    <p class="lede">Every opponent David Burck ran against. Every dollar behind them.<br>Every dollar behind him. The capital-efficiency case for backing him again.</p>
+  </div>
+  <div class="stats">
+    <div class="stat"><div class="num">$22.5M</div><div class="label">Combined field fundraising</div></div>
+    <div class="stat"><div class="num">$255K</div><div class="label">Burck — 100% individual donors</div></div>
+    <div class="stat"><div class="num">4th of 7</div><div class="label">Finish, zero self-funding</div></div>
+  </div>
+</body>
+</html>

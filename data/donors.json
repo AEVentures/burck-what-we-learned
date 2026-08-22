@@ -1,0 +1,1001 @@
+[
+  {
+    "name": "ALBERS, KIM",
+    "amount": 7000.0,
+    "employer": "Sector Contracting",
+    "occupation": "Self Employed",
+    "city": "Jupiter",
+    "state": "FL",
+    "date": "2026-04-24"
+  },
+  {
+    "name": "PETRYLAITE, GABRIELE",
+    "amount": 3500.0,
+    "employer": "Self Employed",
+    "occupation": "Wine Maker",
+    "city": "Miami Beach",
+    "state": "FL",
+    "date": "2026-05-10"
+  },
+  {
+    "name": "LOCKS, MARK",
+    "amount": 3500.0,
+    "employer": "Self Employed",
+    "occupation": "Self Employed",
+    "city": "West Palm Beach",
+    "state": "FL",
+    "date": "2026-06-22"
+  },
+  {
+    "name": "HAYMES, ANN MARIE",
+    "amount": 3500.0,
+    "employer": "Retired",
+    "occupation": "Retired",
+    "city": "Palm Beach",
+    "state": "FL",
+    "date": "2026-05-21"
+  },
+  {
+    "name": "GUILFOYLE, LYDA",
+    "amount": 3500.0,
+    "employer": "Homemaker",
+    "occupation": "Homemaker",
+    "city": "Delray Beach",
+    "state": "FL",
+    "date": "2026-04-24"
+  },
+  {
+    "name": "DAVIS, ARTHUR",
+    "amount": 3500.0,
+    "employer": "Showcar Florida Llc",
+    "occupation": "Entrepreneur",
+    "city": "West Palm Beach",
+    "state": "FL",
+    "date": "2026-05-26"
+  },
+  {
+    "name": "CENTNER, LEILA",
+    "amount": 3500.0,
+    "employer": "Centner Academy",
+    "occupation": "School Owner",
+    "city": "Miami",
+    "state": "FL",
+    "date": "2026-05-20"
+  },
+  {
+    "name": "CENTNER, DAVID",
+    "amount": 3500.0,
+    "employer": "Dcl Capital Management",
+    "occupation": "Chairman",
+    "city": "Miami",
+    "state": "FL",
+    "date": "2026-05-20"
+  },
+  {
+    "name": "ALBERS, NATHAN",
+    "amount": 3500.0,
+    "employer": "Disaster Management Group Llc",
+    "occupation": "Ceo",
+    "city": "Jupiter",
+    "state": "FL",
+    "date": "2026-06-30"
+  },
+  {
+    "name": "ALBERS, NATHAN",
+    "amount": 3500.0,
+    "employer": "Disaster Management Group Llc",
+    "occupation": "Ceo",
+    "city": "Jupiter",
+    "state": "FL",
+    "date": "2026-05-19"
+  },
+  {
+    "name": "ALBERS, KIM",
+    "amount": 3500.0,
+    "employer": "Sector Contracting",
+    "occupation": "Self Employed",
+    "city": "Jupiter",
+    "state": "FL",
+    "date": "2026-06-22"
+  },
+  {
+    "name": "YELLIN, JONATHAN",
+    "amount": 3500.0,
+    "employer": "Abc Bail Bonds",
+    "occupation": "Executive",
+    "city": "Highland Beach",
+    "state": "FL",
+    "date": "2026-03-31"
+  },
+  {
+    "name": "WILKERSON, MICHAEL",
+    "amount": 3500.0,
+    "employer": "Self Employed",
+    "occupation": "Finance Consultant",
+    "city": "Palm Beach",
+    "state": "FL",
+    "date": "2026-03-24"
+  },
+  {
+    "name": "SLATER, KENNETH",
+    "amount": 3500.0,
+    "employer": "Tremont Partners",
+    "occupation": "Ceo",
+    "city": "Boynton Beach",
+    "state": "FL",
+    "date": "2026-01-15"
+  },
+  {
+    "name": "SLATER, ELLEN",
+    "amount": 3500.0,
+    "employer": "Homemaker",
+    "occupation": "Homemaker",
+    "city": "Boynton Beach",
+    "state": "FL",
+    "date": "2026-01-15"
+  },
+  {
+    "name": "SIEGEL, WILLIAM D",
+    "amount": 3500.0,
+    "employer": "Retired",
+    "occupation": "Retired",
+    "city": "West Palm Beach",
+    "state": "FL",
+    "date": "2026-01-30"
+  },
+  {
+    "name": "SCHEFMEYER, DONALD",
+    "amount": 3500.0,
+    "employer": "Self Employed",
+    "occupation": "Commercial Real Estate",
+    "city": "South Bend",
+    "state": "IN",
+    "date": "2026-03-31"
+  },
+  {
+    "name": "MILLER, MAX",
+    "amount": 3500.0,
+    "employer": "Paybotic",
+    "occupation": "Ceo",
+    "city": "West Palm Beach",
+    "state": "FL",
+    "date": "2026-02-11"
+  },
+  {
+    "name": "MILLER, BAYLEE",
+    "amount": 3500.0,
+    "employer": "Retired",
+    "occupation": "Retired",
+    "city": "West Palm Beach",
+    "state": "FL",
+    "date": "2026-02-11"
+  },
+  {
+    "name": "LEEDS, LAURENCE C JR",
+    "amount": 3500.0,
+    "employer": "Retired",
+    "occupation": "Retired",
+    "city": "Palm Beach",
+    "state": "FL",
+    "date": "2026-03-23"
+  },
+  {
+    "name": "KIPP, TIMO",
+    "amount": 3500.0,
+    "employer": "Self Employed",
+    "occupation": "Investor",
+    "city": "Miami Beach",
+    "state": "FL",
+    "date": "2026-03-10"
+  },
+  {
+    "name": "JAVITS, MARGARETHA",
+    "amount": 3500.0,
+    "employer": "Retired",
+    "occupation": "Retired",
+    "city": "Palm Beach",
+    "state": "FL",
+    "date": "2026-01-29"
+  },
+  {
+    "name": "JAVITS, ERIC",
+    "amount": 3500.0,
+    "employer": "Retired",
+    "occupation": "Retired",
+    "city": "Palm Beach",
+    "state": "FL",
+    "date": "2026-01-29"
+  },
+  {
+    "name": "HOAGLAND, CATHERINE",
+    "amount": 3500.0,
+    "employer": "Retired",
+    "occupation": "Retired",
+    "city": "Hilton Head",
+    "state": "SC",
+    "date": "2026-03-24"
+  },
+  {
+    "name": "HERNANDEZ, BRITNEY",
+    "amount": 3500.0,
+    "employer": "Homemaker",
+    "occupation": "Homemaker",
+    "city": "Miami",
+    "state": "FL",
+    "date": "2026-03-10"
+  },
+  {
+    "name": "HERNANDEZ, ANTHONY",
+    "amount": 3500.0,
+    "employer": "Maison & Co",
+    "occupation": "Business Owner",
+    "city": "Miami",
+    "state": "FL",
+    "date": "2026-03-02"
+  },
+  {
+    "name": "HAYMES, STEVEN D",
+    "amount": 3500.0,
+    "employer": "Retired",
+    "occupation": "Retired",
+    "city": "Palm Beach",
+    "state": "FL",
+    "date": "2026-02-25"
+  },
+  {
+    "name": "GUILFOYLE, TONY",
+    "amount": 3500.0,
+    "employer": "Celsius",
+    "occupation": "Cco",
+    "city": "Delray Beach",
+    "state": "FL",
+    "date": "2026-02-26"
+  },
+  {
+    "name": "GLASSMAN, DANIEL",
+    "amount": 3500.0,
+    "employer": "Gunster, Yoakley & Stewart, Pa",
+    "occupation": "Attorney",
+    "city": "West Palm Beach",
+    "state": "FL",
+    "date": "2026-02-23"
+  },
+  {
+    "name": "COWIE, SUSAN",
+    "amount": 3500.0,
+    "employer": "Retired",
+    "occupation": "Retired",
+    "city": "Palm Beach",
+    "state": "FL",
+    "date": "2026-03-10"
+  },
+  {
+    "name": "COWIE, CHRISTOPHER",
+    "amount": 3500.0,
+    "employer": "Retired",
+    "occupation": "Retired",
+    "city": "Palm Beach",
+    "state": "FL",
+    "date": "2026-03-10"
+  },
+  {
+    "name": "BURRAGE, ROBERT",
+    "amount": 3500.0,
+    "employer": "Rwb Construction Management",
+    "occupation": "Owner",
+    "city": "Boynton Beach",
+    "state": "FL",
+    "date": "2026-02-23"
+  },
+  {
+    "name": "BRINKMANN, KATIE",
+    "amount": 3500.0,
+    "employer": "Homemaker",
+    "occupation": "Homemaker",
+    "city": "Boynton Beach",
+    "state": "FL",
+    "date": "2026-02-23"
+  },
+  {
+    "name": "APPLE, STEVEN",
+    "amount": 3500.0,
+    "employer": "Retired",
+    "occupation": "Retired",
+    "city": "Palm Beach",
+    "state": "FL",
+    "date": "2026-02-28"
+  },
+  {
+    "name": "ALBRECHT, GEORGE",
+    "amount": 3500.0,
+    "employer": "Retired",
+    "occupation": "Retired",
+    "city": "Palm Beach",
+    "state": "FL",
+    "date": "2026-03-27"
+  },
+  {
+    "name": "KIPP, LOU",
+    "amount": 3450.0,
+    "employer": "Student",
+    "occupation": "Student",
+    "city": "Miami",
+    "state": "FL",
+    "date": "2026-03-10"
+  },
+  {
+    "name": "ALBERS, NATHAN",
+    "amount": 3416.98,
+    "employer": "Disaster Management Group Llc",
+    "occupation": "Ceo",
+    "city": "Jupiter",
+    "state": "FL",
+    "date": "2026-04-24"
+  },
+  {
+    "name": "HEDRICK, DALE",
+    "amount": 3300.0,
+    "employer": "Hendrick Brothers",
+    "occupation": "General Contractor",
+    "city": "West Palm Beach",
+    "state": "FL",
+    "date": "2026-02-20"
+  },
+  {
+    "name": "KALLOP, BETSY",
+    "amount": 3000.0,
+    "employer": "Retired",
+    "occupation": "Retired",
+    "city": "Palm Beach",
+    "state": "FL",
+    "date": "2026-02-24"
+  },
+  {
+    "name": "HERNANDEZ, ANTHONY",
+    "amount": 3000.0,
+    "employer": "Maison & Co",
+    "occupation": "Business Owner",
+    "city": "Miami",
+    "state": "FL",
+    "date": "2026-03-28"
+  },
+  {
+    "name": "GRAHAM, ALEXIS",
+    "amount": 3000.0,
+    "employer": "E&L Graham",
+    "occupation": "Executive",
+    "city": "Palm Beach",
+    "state": "FL",
+    "date": "2026-02-15"
+  },
+  {
+    "name": "REESE, STUART",
+    "amount": 2500.0,
+    "employer": "Retired",
+    "occupation": "Retired",
+    "city": "Marco Island",
+    "state": "FL",
+    "date": "2026-06-01"
+  },
+  {
+    "name": "COSTELLO, MICHAEL",
+    "amount": 2500.0,
+    "employer": "Albatross Consulting Llc",
+    "occupation": "Real Estate",
+    "city": "West Palm Beach",
+    "state": "FL",
+    "date": "2026-06-22"
+  },
+  {
+    "name": "SNOWDEN, STEVEN",
+    "amount": 2500.0,
+    "employer": "Retired",
+    "occupation": "Retired",
+    "city": "West Palm Beach",
+    "state": "FL",
+    "date": "2026-03-24"
+  },
+  {
+    "name": "SELLONI, MARIA",
+    "amount": 2500.0,
+    "employer": "Retired",
+    "occupation": "Retired",
+    "city": "Naples",
+    "state": "FL",
+    "date": "2026-02-11"
+  },
+  {
+    "name": "SELLONI, JOHN",
+    "amount": 2500.0,
+    "employer": "Retired",
+    "occupation": "Retired",
+    "city": "Naples",
+    "state": "FL",
+    "date": "2026-02-11"
+  },
+  {
+    "name": "HERNANDEZ, ANTHONY",
+    "amount": 2500.0,
+    "employer": "Maison & Co",
+    "occupation": "Business Owner",
+    "city": "Miami",
+    "state": "FL",
+    "date": "2026-03-28"
+  },
+  {
+    "name": "DIAMOND, WILLIAM J",
+    "amount": 2500.0,
+    "employer": "Retired",
+    "occupation": "Retired",
+    "city": "Palm Beach",
+    "state": "FL",
+    "date": "2026-03-20"
+  },
+  {
+    "name": "WIND, ERIC",
+    "amount": 2083.65,
+    "employer": "Self Employed",
+    "occupation": "Antique Dealer",
+    "city": "Palm Beach",
+    "state": "FL",
+    "date": "2026-05-12"
+  },
+  {
+    "name": "NETH, CAMERON",
+    "amount": 2000.0,
+    "employer": "Cameron Patrick Neth Designs I",
+    "occupation": "Owner",
+    "city": "West Palm Beach",
+    "state": "FL",
+    "date": "2026-04-21"
+  },
+  {
+    "name": "CURRAN, ROBERT",
+    "amount": 2000.0,
+    "employer": "Tryumph Llc",
+    "occupation": "Real Estate",
+    "city": "Miami",
+    "state": "FL",
+    "date": "2026-06-23"
+  },
+  {
+    "name": "ALDRIDGE, ALFRED P III",
+    "amount": 2000.0,
+    "employer": "Head Of Sales",
+    "occupation": "Executive",
+    "city": "Palm Beach",
+    "state": "FL",
+    "date": "2026-03-17"
+  },
+  {
+    "name": "DAVID, CARL",
+    "amount": 1562.81,
+    "employer": "",
+    "occupation": "Art Dealer",
+    "city": "Palm Beach Gardens",
+    "state": "FL",
+    "date": "2026-04-22"
+  },
+  {
+    "name": "WINDHAM, SUE",
+    "amount": 1041.98,
+    "employer": "Retired",
+    "occupation": "Retired",
+    "city": "Jupiter",
+    "state": "FL",
+    "date": "2026-04-23"
+  },
+  {
+    "name": "TRAULSEN, REGINE",
+    "amount": 1041.98,
+    "employer": "Retired",
+    "occupation": "Retired",
+    "city": "Palm Beach",
+    "state": "FL",
+    "date": "2026-06-30"
+  },
+  {
+    "name": "THOMPSON, MICHAEL",
+    "amount": 1041.98,
+    "employer": "Local Roofing Co Inc",
+    "occupation": "Controller",
+    "city": "Cary",
+    "state": "IL",
+    "date": "2026-05-18"
+  },
+  {
+    "name": "QUINN, OLIVER",
+    "amount": 1041.98,
+    "employer": "Retired",
+    "occupation": "Retired",
+    "city": "Palm Beach",
+    "state": "FL",
+    "date": "2026-04-24"
+  },
+  {
+    "name": "MORAN, MARIANNE",
+    "amount": 1041.98,
+    "employer": "Self Employed",
+    "occupation": "Law",
+    "city": "West Palm Beach",
+    "state": "FL",
+    "date": "2026-05-25"
+  },
+  {
+    "name": "GIERSCH, PATRICK",
+    "amount": 1041.98,
+    "employer": "Retired",
+    "occupation": "Retired",
+    "city": "Marco Island",
+    "state": "FL",
+    "date": "2026-06-20"
+  },
+  {
+    "name": "CHEBOTAREV, DMITRIY",
+    "amount": 1041.98,
+    "employer": "Ocford Property Investments",
+    "occupation": "Investor",
+    "city": "San Clemente",
+    "state": "CA",
+    "date": "2026-04-25"
+  },
+  {
+    "name": "CAPALDI, DAVID",
+    "amount": 1041.98,
+    "employer": "Diamante Medical Skin Care",
+    "occupation": "Physician",
+    "city": "Jupiter",
+    "state": "FL",
+    "date": "2026-04-23"
+  },
+  {
+    "name": "CABRERA, BRANDON",
+    "amount": 1041.98,
+    "employer": "The Brandx Company",
+    "occupation": "Real Estate Development",
+    "city": "Loxahatchee",
+    "state": "FL",
+    "date": "2026-05-15"
+  },
+  {
+    "name": "ANTAR, ANDREW",
+    "amount": 1041.98,
+    "employer": "Retired",
+    "occupation": "Retired",
+    "city": "Penn Valley",
+    "state": "PA",
+    "date": "2026-05-20"
+  },
+  {
+    "name": "SNYDER, MARK",
+    "amount": 1000.0,
+    "employer": "Propharma Distribution",
+    "occupation": "Pharmaceutical Sales",
+    "city": "Delray Beach",
+    "state": "FL",
+    "date": "2026-06-08"
+  },
+  {
+    "name": "SMITH, DAVID",
+    "amount": 1000.0,
+    "employer": "Smith Medical Llc",
+    "occupation": "Sales",
+    "city": "Jupiter",
+    "state": "FL",
+    "date": "2026-06-10"
+  },
+  {
+    "name": "SEAMAN, ROBERT",
+    "amount": 1000.0,
+    "employer": "Retired",
+    "occupation": "Retired",
+    "city": "Singer Island",
+    "state": "FL",
+    "date": "2026-06-25"
+  },
+  {
+    "name": "MORAN, TIMOTHY",
+    "amount": 1000.0,
+    "employer": "",
+    "occupation": "",
+    "city": "Palm Beach",
+    "state": "FL",
+    "date": "2026-04-23"
+  },
+  {
+    "name": "MORAN, BRIDGET",
+    "amount": 1000.0,
+    "employer": "Elected Official",
+    "occupation": "Elected Official",
+    "city": "Palm Beach",
+    "state": "FL",
+    "date": "2026-04-23"
+  },
+  {
+    "name": "WINDHAM, SUE",
+    "amount": 1000.0,
+    "employer": "Retired",
+    "occupation": "Retired",
+    "city": "Jupiter",
+    "state": "FL",
+    "date": "2026-03-23"
+  },
+  {
+    "name": "NICOZISIS, PHILIP",
+    "amount": 1000.0,
+    "employer": "Self Employed",
+    "occupation": "Real Estate Investment",
+    "city": "West Palm Beach",
+    "state": "FL",
+    "date": "2026-02-26"
+  },
+  {
+    "name": "MAISANO, BENJAMIN",
+    "amount": 1000.0,
+    "employer": "Benjamin Maisano",
+    "occupation": "Owner",
+    "city": "Mendham Township",
+    "state": "NJ",
+    "date": "2026-02-11"
+  },
+  {
+    "name": "LABOY, CHAD",
+    "amount": 1000.0,
+    "employer": "Healthcred",
+    "occupation": "President",
+    "city": "Fort Lauderdale",
+    "state": "FL",
+    "date": "2026-02-26"
+  },
+  {
+    "name": "JACKSON, KENNETH",
+    "amount": 1000.0,
+    "employer": "Retired",
+    "occupation": "Retired",
+    "city": "Fort Lauderdale",
+    "state": "FL",
+    "date": "2026-02-12"
+  },
+  {
+    "name": "GARVEY, JOHN",
+    "amount": 1000.0,
+    "employer": "Petroleum Inc",
+    "occupation": "Ceo",
+    "city": "Wichita",
+    "state": "KS",
+    "date": "2026-01-29"
+  },
+  {
+    "name": "FALZARANO, MARY VICTORIA",
+    "amount": 1000.0,
+    "employer": "Homemaker",
+    "occupation": "Homemaker",
+    "city": "West Palm Beach",
+    "state": "FL",
+    "date": "2026-02-14"
+  },
+  {
+    "name": "DIAMOND, WILLIAM J",
+    "amount": 1000.0,
+    "employer": "Retired",
+    "occupation": "Retired",
+    "city": "Palm Beach",
+    "state": "FL",
+    "date": "2026-02-23"
+  },
+  {
+    "name": "CURRAN, ROBERT",
+    "amount": 1000.0,
+    "employer": "Tryumph Llc",
+    "occupation": "Real Estate",
+    "city": "Miami",
+    "state": "FL",
+    "date": "2026-02-08"
+  },
+  {
+    "name": "BIBB, HANNAH",
+    "amount": 1000.0,
+    "employer": "Homemaker",
+    "occupation": "Homemaker",
+    "city": "West Palm Beach",
+    "state": "FL",
+    "date": "2026-03-31"
+  },
+  {
+    "name": "TOKE, VIJAY",
+    "amount": 521.15,
+    "employer": "Pranger Law Pc",
+    "occupation": "Attorney",
+    "city": "West Palm Beach",
+    "state": "FL",
+    "date": "2026-06-30"
+  },
+  {
+    "name": "PIZZA, JOSEPH M",
+    "amount": 521.15,
+    "employer": "Pharmasphere",
+    "occupation": "Ceo",
+    "city": "Paramus",
+    "state": "NJ",
+    "date": "2026-04-15"
+  },
+  {
+    "name": "MIRANDA, KYLE JAMES",
+    "amount": 521.15,
+    "employer": "Game 7 Sports Group",
+    "occupation": "Sports Agent",
+    "city": "Rehoboth",
+    "state": "MA",
+    "date": "2026-06-22"
+  },
+  {
+    "name": "HABBERSTAD, ERIK",
+    "amount": 521.15,
+    "employer": "Habberstad Bmw",
+    "occupation": "Dealer",
+    "city": "West Palm Beach",
+    "state": "FL",
+    "date": "2026-04-19"
+  },
+  {
+    "name": "GLASER, KIMBERLIE",
+    "amount": 521.15,
+    "employer": "Self Employed",
+    "occupation": "Philanthropist",
+    "city": "Lantana",
+    "state": "FL",
+    "date": "2026-04-24"
+  },
+  {
+    "name": "ESPIG, GLENN MANFRED",
+    "amount": 521.15,
+    "employer": "Jewelers Mutual",
+    "occupation": "Insurance",
+    "city": "Palm Beach",
+    "state": "FL",
+    "date": "2026-04-24"
+  },
+  {
+    "name": "VIEIRA, MARIA F",
+    "amount": 500.0,
+    "employer": "Whalou Properties Management",
+    "occupation": "Ceo/Cfo",
+    "city": "West Palm Beach",
+    "state": "FL",
+    "date": "2026-06-29"
+  },
+  {
+    "name": "TOKE, VIJAY",
+    "amount": 500.0,
+    "employer": "Pranger Law Pc",
+    "occupation": "Attorney",
+    "city": "West Palm Beach",
+    "state": "FL",
+    "date": "2026-06-22"
+  },
+  {
+    "name": "SPOTO, DREW",
+    "amount": 500.0,
+    "employer": "Retired",
+    "occupation": "Retired",
+    "city": "Boca Raton",
+    "state": "FL",
+    "date": "2026-04-23"
+  },
+  {
+    "name": "O'MARA, ROSEMARY",
+    "amount": 500.0,
+    "employer": "Retired",
+    "occupation": "Retired",
+    "city": "Boca Raton",
+    "state": "FL",
+    "date": "2026-04-23"
+  },
+  {
+    "name": "VIEIRA, MARIA F",
+    "amount": 500.0,
+    "employer": "Whalou Properties Management",
+    "occupation": "Ceo/Cfo",
+    "city": "West Palm Beach",
+    "state": "FL",
+    "date": "2026-03-10"
+  },
+  {
+    "name": "RIZZI, NIKKI",
+    "amount": 500.0,
+    "employer": "Nr Ventures Corp",
+    "occupation": "Property Management",
+    "city": "Delray Beach",
+    "state": "FL",
+    "date": "2026-03-31"
+  },
+  {
+    "name": "NICOZISIS, PHILIP",
+    "amount": 500.0,
+    "employer": "Self Employed",
+    "occupation": "Real Estate Investment",
+    "city": "West Palm Beach",
+    "state": "FL",
+    "date": "2026-03-24"
+  },
+  {
+    "name": "MASTERS, BENJAMIN",
+    "amount": 500.0,
+    "employer": "Xpi",
+    "occupation": "President",
+    "city": "Palm Beach",
+    "state": "FL",
+    "date": "2026-02-17"
+  },
+  {
+    "name": "LIECHTUNG, ROCHELLE",
+    "amount": 500.0,
+    "employer": "Retired",
+    "occupation": "Retired",
+    "city": "Boynton Beach",
+    "state": "FL",
+    "date": "2026-03-25"
+  },
+  {
+    "name": "GRUDEM, BIRK",
+    "amount": 500.0,
+    "employer": "Hai Hai",
+    "occupation": "Business Owner",
+    "city": "Minneapolis",
+    "state": "MN",
+    "date": "2026-02-08"
+  },
+  {
+    "name": "BRUNET, WOLFGANG",
+    "amount": 500.0,
+    "employer": "Ideal Nutrition",
+    "occupation": "Ceo",
+    "city": "West Palm Beach",
+    "state": "FL",
+    "date": "2026-02-06"
+  },
+  {
+    "name": "KALLOP, BETSY",
+    "amount": 374.69,
+    "employer": "Retired",
+    "occupation": "Retired",
+    "city": "Palm Beach",
+    "state": "FL",
+    "date": "2026-06-17"
+  },
+  {
+    "name": "REDMOND, LYNN",
+    "amount": 260.73,
+    "employer": "Retired",
+    "occupation": "Retired",
+    "city": "Wellington",
+    "state": "FL",
+    "date": "2026-06-29"
+  },
+  {
+    "name": "MILBAUER, JOEY",
+    "amount": 260.73,
+    "employer": "Diapoules & Feinstein Cpa Pc",
+    "occupation": "Managing Partner - Accountant",
+    "city": "Northport",
+    "state": "NY",
+    "date": "2026-05-23"
+  },
+  {
+    "name": "FLEWELLING, ROBERT",
+    "amount": 260.73,
+    "employer": "Xy Drink Inc",
+    "occupation": "Owner",
+    "city": "Aldadena",
+    "state": "CA",
+    "date": "2026-06-22"
+  },
+  {
+    "name": "CASTELLANO, MICHAEL",
+    "amount": 260.73,
+    "employer": "Self Employed",
+    "occupation": "Entrepreneur",
+    "city": "West Palm Beach",
+    "state": "FL",
+    "date": "2026-06-04"
+  },
+  {
+    "name": "WEISS, RICHARD",
+    "amount": 250.0,
+    "employer": "Retired",
+    "occupation": "Retired",
+    "city": "Roxbury",
+    "state": "CT",
+    "date": "2026-06-24"
+  },
+  {
+    "name": "LEVY, LYNN",
+    "amount": 250.0,
+    "employer": "Retired",
+    "occupation": "Retired",
+    "city": "Aventura",
+    "state": "FL",
+    "date": "2026-06-25"
+  },
+  {
+    "name": "GARRETT, CAROLINA",
+    "amount": 250.0,
+    "employer": "Homemaker",
+    "occupation": "Homemaker",
+    "city": "Miami",
+    "state": "FL",
+    "date": "2026-06-22"
+  },
+  {
+    "name": "SPOTO, DREW",
+    "amount": 250.0,
+    "employer": "Retired",
+    "occupation": "Retired",
+    "city": "Boca Raton",
+    "state": "FL",
+    "date": "2026-03-22"
+  },
+  {
+    "name": "REDMOND, LYNN",
+    "amount": 250.0,
+    "employer": "Retired",
+    "occupation": "Retired",
+    "city": "Wellington",
+    "state": "FL",
+    "date": "2026-02-28"
+  },
+  {
+    "name": "RASH, JASON",
+    "amount": 250.0,
+    "employer": "Frankel Realty",
+    "occupation": "Real Estate",
+    "city": "Palm Beach Gardens",
+    "state": "FL",
+    "date": "2026-02-28"
+  },
+  {
+    "name": "O'MARA, ROSEMARY",
+    "amount": 250.0,
+    "employer": "Retired",
+    "occupation": "Retired",
+    "city": "Boca Raton",
+    "state": "FL",
+    "date": "2026-03-22"
+  },
+  {
+    "name": "O'MARA, ROSEMARY",
+    "amount": 250.0,
+    "employer": "Retired",
+    "occupation": "Retired",
+    "city": "Boca Raton",
+    "state": "FL",
+    "date": "2026-03-22"
+  },
+  {
+    "name": "HART, CARL",
+    "amount": 250.0,
+    "employer": "Rwb Construction Mgmt",
+    "occupation": "Construction Manager",
+    "city": "Boynton Beach",
+    "state": "FL",
+    "date": "2026-03-10"
+  },
+  {
+    "name": "DELLANOCE, JOHN",
+    "amount": 250.0,
+    "employer": "Jld South Florida 1 Llc",
+    "occupation": "President",
+    "city": "North Palm Beach",
+    "state": "FL",
+    "date": "2026-03-28"
+  },
+  {
+    "name": "HART, CARL",
+    "amount": 104.48,
+    "employer": "Rwb Construction Mgmt",
+    "occupation": "Construction Manager",
+    "city": "Boynton Beach",
+    "state": "FL",
+    "date": "2026-06-30"
+  }
+]

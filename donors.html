@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>David Burck's Donors — Every Name, Every Dollar</title>
+<meta property="og:title" content="David Burck's Donors — Every Name, Every Dollar">
+<meta property="og:image" content="https://aeventures.github.io/burck-opposition-report/assets/og.png">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <div class="brand">THE COMPETITION FILE <span>· FL-22</span></div>
+    <nav class="main">
+      <a href="index.html">Thesis</a>
+      <a href="opponents.html">The Competition</a>
+      <a href="money.html">The Money</a>
+      <a href="donors.html" class="active">Burck's Donors</a>
+      <a href="treasurer-reports.html">Treasurer's Reports</a>
+      <a href="efficiency.html">Efficiency Case</a>
+      <a href="videos.html">Videos</a>
+      <a href="sources.html">Sources</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero" style="padding-bottom:20px;">
+  <div class="wrap">
+    <span class="eyebrow">Who Actually Backed David</span>
+    <h1>Every disclosed donor to David Burck for Congress.</h1>
+    <p class="lede">Pulled directly from FEC Schedule A filings for committee <strong>C00935452</strong>
+    (David Burck for Congress 2026). These are the individually-itemized contributions (over $200) that
+    make up the vast majority of his war chest — no PACs, no corporations, no self-funding.</p>
+  </div>
+</section>
+
+<section style="padding-top:10px;">
+  <div class="wrap">
+    <div class="stat-grid">
+      <div class="stat-card"><div class="num" id="stat-total">—</div><div class="label">Total itemized (disclosed) contributions</div></div>
+      <div class="stat-card"><div class="num" id="stat-count">—</div><div class="label">Disclosed contribution records</div></div>
+      <div class="stat-card"><div class="num" id="stat-unique">—</div><div class="label">Unique named donors</div></div>
+      <div class="stat-card"><div class="num" id="stat-avg">—</div><div class="label">Average disclosed contribution</div></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="section-head">
+      <span class="kicker">Full ledger</span>
+      <h2>Search the donor list</h2>
+      <p class="dim">Search by name, city, employer, or occupation. Data current as of the pre-primary FEC
+      report (coverage through July 29, 2026).</p>
+    </div>
+    <input class="search" id="search" type="text" placeholder="Search donors, employers, cities…">
+    <div class="table-wrap">
+      <table class="data">
+        <thead><tr><th>Donor</th><th>Amount</th><th>City, State</th><th>Employer</th><th>Occupation</th><th>Date</th></tr></thead>
+        <tbody id="donor-body"></tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<footer class="site">
+  <div class="wrap">
+    <p>Source: <a href="https://api.open.fec.gov/v1/schedules/schedule_a/?committee_id=C00935452" target="_blank" rel="noopener">FEC Schedule A API, committee C00935452</a>.
+    Note: the FEC's official candidate totals report $252,562 in itemized individual contributions for the
+    covered period; the ledger below reflects the individual transaction records returned by the public
+    API at time of research and may not capture every amendment. See <a href="sources.html">Sources</a>.</p>
+  </div>
+</footer>
+
+<script src="data/race-data.js"></script>
+<script>
+let donors = [];
+
+function money(n) {
+  return "$" + Number(n).toLocaleString("en-US", { maximumFractionDigits: 0 });
+}
+
+function render(list) {
+  document.getElementById("donor-body").innerHTML = list.map(d => `
+    <tr>
+      <td>${toTitle(d.name)}</td>
+      <td>${money(d.amount)}</td>
+      <td>${d.city || ""}${d.city && d.state ? ", " : ""}${d.state || ""}</td>
+      <td>${d.employer || "—"}</td>
+      <td>${d.occupation || "—"}</td>
+      <td>${d.date || ""}</td>
+    </tr>
+  `).join("");
+}
+
+function toTitle(nameStr) {
+  // FEC names come as "LAST, FIRST MIDDLE"
+  return nameStr.split(" ").map(w => w.length ? w[0] + w.slice(1).toLowerCase() : w).join(" ").replace(/,\s*$/, "");
+}
+
+fetch("data/donors.json")
+  .then(r => r.json())
+  .then(data => {
+    donors = data.sort((a,b) => b.amount - a.amount);
+    const total = donors.reduce((s,d) => s + d.amount, 0);
+    const unique = new Set(donors.map(d => d.name)).size;
+    document.getElementById("stat-total").textContent = money(total);
+    document.getElementById("stat-count").textContent = donors.length;
+    document.getElementById("stat-unique").textContent = unique;
+    document.getElementById("stat-avg").textContent = money(total / donors.length);
+    render(donors);
+  });
+
+document.getElementById("search").addEventListener("input", (e) => {
+  const q = e.target.value.toLowerCase();
+  render(donors.filter(d =>
+    (d.name||"").toLowerCase().includes(q) ||
+    (d.city||"").toLowerCase().includes(q) ||
+    (d.employer||"").toLowerCase().includes(q) ||
+    (d.occupation||"").toLowerCase().includes(q)
+  ));
+});
+</script>
+</body>
+</html>
