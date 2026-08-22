@@ -66,11 +66,30 @@
     text-transform: uppercase;
   }
   .brand-tag span { color: #2f9640; }
+  .brand-tag { display: flex; align-items: center; gap: 10px; }
+  .brand-tag img { width: 36px; height: 24px; border-radius: 2px; box-shadow: 0 0 0 1px #d7e6f0; }
+  .eagle-bg {
+    position: absolute;
+    top: -40px;
+    right: -20px;
+    width: 460px;
+    height: 276px;
+    color: #0a3161;
+    opacity: 0.07;
+  }
+  .laurel { position: absolute; bottom: 40px; right: 70px; display: flex; align-items: center; gap: 10px; }
+  .laurel svg { width: 26px; height: 60px; color: #c9a227; }
+  .laurel .laurel-num { font-family: "Arial Black", Arial, sans-serif; font-weight: 900; font-size: 30px; color: #0a3161; text-align: center; }
+  .laurel .laurel-label { font-size: 12px; font-weight: 800; text-transform: uppercase; color: #5b7085; text-align: center; max-width: 110px; }
 </style>
 </head>
 <body>
+  <svg class="eagle-bg" viewBox="0 0 200 120"><use href="assets/icons.svg#icon-eagle"/></svg>
   <div class="top-bar"></div>
-  <div class="brand-tag">BURCK: WHAT WE LEARNED <span>· FL-22</span></div>
+  <div class="brand-tag">
+    <svg width="36" height="24"><use href="assets/icons.svg#icon-flag"/></svg>
+    BURCK: WHAT WE LEARNED <span>· FL-22</span>
+  </div>
   <div class="content">
     <span class="eyebrow">What We Learned</span>
     <h1>Outspent 20-to-1.<br>Still <span class="accent">Outperformed.</span></h1>
@@ -80,6 +99,11 @@
     <div class="stat"><div class="num">$22.5M</div><div class="label">Combined field fundraising</div></div>
     <div class="stat"><div class="num">$255K</div><div class="label">Burck — 100% individual donors</div></div>
     <div class="stat"><div class="num">4th of 7</div><div class="label">Finish, zero self-funding</div></div>
+  </div>
+  <div class="laurel">
+    <svg><use href="assets/icons.svg#icon-laurel-left"/></svg>
+    <div><div class="laurel-num">#1</div><div class="laurel-label">Most Efficient</div></div>
+    <svg><use href="assets/icons.svg#icon-laurel-right"/></svg>
   </div>
 </body>
 </html>

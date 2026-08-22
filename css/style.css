@@ -276,3 +276,64 @@ footer.site a { color: var(--green-600); }
 ol.cite { padding-left: 20px; color: var(--muted); font-size: 0.9rem; }
 ol.cite li { margin-bottom: 10px; word-break: break-word; }
 ol.cite a { font-weight: 400; }
+
+/* Patriotic accents: flag, eagle, laurel */
+:root { --laurel-gold: #c9a227; --laurel-gold-light: #e6c34d; }
+
+.icon-flag-svg {
+  width: 30px;
+  height: 20px;
+  vertical-align: middle;
+  margin-right: 10px;
+  border-radius: 2px;
+  box-shadow: 0 0 0 1px var(--border);
+  flex-shrink: 0;
+}
+.brand-row { display: flex; align-items: center; }
+
+.eagle-watermark {
+  position: absolute;
+  top: -20px;
+  right: -10px;
+  width: 340px;
+  height: 204px;
+  color: var(--navy-900);
+  opacity: 0.06;
+  pointer-events: none;
+  z-index: 0;
+}
+.hero { position: relative; overflow: hidden; }
+.hero .wrap { position: relative; z-index: 1; }
+
+.laurel-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.laurel-wrap svg {
+  width: 30px;
+  height: 70px;
+  color: var(--laurel-gold);
+  flex-shrink: 0;
+}
+.laurel-wrap .laurel-center {
+  text-align: center;
+}
+.laurel-wrap .laurel-center .num {
+  font-family: var(--head);
+  font-weight: 900;
+  font-size: 2.6rem;
+  color: var(--navy-900);
+  line-height: 1;
+}
+.laurel-wrap .laurel-center .label {
+  color: var(--muted);
+  font-weight: 700;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-top: 6px;
+}
+.laurel-small { display: inline-flex; align-items: center; gap: 4px; vertical-align: middle; }
+.laurel-small svg { width: 16px; height: 36px; color: var(--laurel-gold); }
